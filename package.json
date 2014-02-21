@@ -1,0 +1,35 @@
+{
+  "name": "frame-queue",
+  "description": "Queue up events, triggering once at the beginning of the next frame to reduce over-updating visual elements",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "raf-component": "~1.1.2",
+    "object-keys": "~0.5.0",
+    "events": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~2.4.2"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/frame-queue"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/frame-queue/issues"
+  },
+  "homepage": "https://github.com/hughsk/frame-queue",
+  "keywords": [
+    "frame",
+    "tick",
+    "next",
+    "faster",
+    "updates",
+    "queue"
+  ]
+}
